@@ -101,7 +101,7 @@ public class ReadCSV {
 				try {
 					fw = new FileWriter(mFilePath + "dimens.xml", false);
 					bw = new BufferedWriter(fw);
-					theFront = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>\n";
+					theFront = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>";
 					bw.write(theFront);
 					bw.newLine();
 					for (DimenValue dv : dimenList) {
