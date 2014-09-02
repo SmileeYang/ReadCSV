@@ -85,7 +85,7 @@ public class ReadCSV {
 	
 	public static void bufferedFileWriter(ArrayList<DimenValue> dimenList, String savingPath, int savingType) {
 		String[] types = new String[] {sw320dp, sw360dp, sw600dp, sw720dp, sw800dp};
-		Double[] formulaForPX = new Double[] { 0.67, 0.75, 1.25, 1.5, 1.67 }; // sw320dp, sw360dp, sw600dp, sw720dp, sw800dp
+		Double[] formulaForPX = new Double[] { 0.29, 0.33, 0.55, 0.66, 0.73 }; // sw320dp, sw360dp, sw600dp, sw720dp, sw800dp
 		String mFilePath = null; 
 		Writer fw = null;
 		BufferedWriter bw = null;
